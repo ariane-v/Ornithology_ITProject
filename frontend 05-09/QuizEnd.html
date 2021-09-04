@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+            $("#header").load("header.html"); 
+            });
+        </script> 
+        <link rel = "stylesheet" href ="style.css">
+        <title>Quiz Options</title>
+    </head>
+    <body>
+        <body oncontextmenu="return false;">
+        <div id= "header"></div>
+        <div class="QuizEnd">
+            <div class="QuizAnswers">
+                <h2>Your score is </h2>
+            
+                <h3> The correct answers for the quiz are:</h3>
+                
+             <ol type="1">
+                <li> New Zealand Pipit </li>
+                <li> Kea</li>
+                <li>Kiwi </li>
+                <li>Silvereye</li>
+                <li>Tui</li>      
+            </ol>
+            
+                <div class="buttons">
+                    <a href="Quiz.html"><button type="button" class="buttonsopt" style="margin:10px;">Start again</button></a>
+                    <br><a href="QuizOptions.html"><button type="button" class="buttonsopt" style="margin:10px;">Go back to Quiz Options </button></a>
+                </div> 
+            </div>
+        </div>       
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+              $("#header").load("header.html"); 
+            });
+        </script> 
+        <link rel = "stylesheet" href ="style.css">
+        <title>Bird Project</title>
+    </head>
+    <body>
+        <body oncontextmenu="return false;">
+        <div id= "header"></div>
+        <div class="banner">
+            <div class="content">
+                <h2>Learn More</h2>
+                <p>Test your knowledge about birds
+                    <br>by listening through their calls 
+                    <a href="quizstart.html"><button type="button" class="button2">Take a Quiz</button></a></p>
+            </div>
+            <img src="bird.png" class="image">
+        </div>
+
+        <div class="body">
+            <div class="contentSignUp">
+                <h1>Why Sign Up?</h1>
+                <img src="award.png" class="award" width="110" height="100" style="float:left">
+                <p>Get certifications by passing quizzes
+                <br>and record your progress.</p>      
+            </div>
+        </div>
+
+    </body>
+</html>

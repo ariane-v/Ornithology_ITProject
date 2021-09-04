@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+            $("#header").load("header.html"); 
+            });
+        </script> 
+        <link rel = "stylesheet" href ="style.css">
+        <title>Quiz Options</title>
+    </head>
+    <body>
+        <body oncontextmenu="return false;">
+        <div id= "header"></div>
+        <div class="QPage1">
+            <h2>Quiz > Options</h2>
+            <form>
+                <div class="Options">
+                    <label for="Difficulty">Difficulty</label>
+                     <select name="Difficulty" id="Difficulty">
+                        <option value="Basic">Basic</option>
+                        <option value="Advanced">Advanced</option>
+                      </select><br>
+                    <label for="Order">Select Order</label>
+                         <select name="Order" id="Order">
+                         <option value="null">Any</option>
+                        </select><br>
+                    <label for="Status">Select Status</label>
+                        <select name="Status" id="Status">
+                        <option value="null">Any</option>
+                        </select><br>
+                     <label for="Habitat">Select Habitat</label>
+                        <select name="Habitat" id="Habitat">
+                        <option value="null">Any</option>
+                        </select><br>
+                </div>
+                
+                <input type="reset" value="Reset">
+                <input type="submit" value="Start">
+            </form>
+        </div>       
+    </body>
+</html>
